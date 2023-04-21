@@ -6,7 +6,7 @@ void setup()
   
   sines = new ArrayList<Sine>();
   
-  final int n = 100;
+  final int n = 200;
   for (int i = 0; i < n; ++i)
   {
     float theta = i * 2 * PI / n;
@@ -31,4 +31,6 @@ void draw()
     s.update();
     s.display();
   }
+  
+  //saveFrame("######.png");
 }
